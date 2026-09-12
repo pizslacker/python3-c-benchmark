@@ -12,7 +12,7 @@ This C program uses GCC inline `Python3` with `ctypes` allowing the inline `Pyth
 #### Example output:
 ```bash
 Allocating array of 100000000 elements...
-Running benchmarks...  
+Running benchmarks... /
 
 [C Version]      Result: 100000000 | Time: 0.034664 seconds
 [Python3 Version] Result: 100000000 | Time: 7.252038 seconds
