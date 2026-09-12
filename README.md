@@ -1,6 +1,6 @@
 # python3-c-benchmark
 
-C benchmark program showcasing (compiled binary) system implementation language performance, compared to scripted Python3 code.
+C benchmark program showcasing (compiled binary) system implementation language performance, compared to scripted/interpreted Python3 code.
 It allocates a 1-billion element array, runs a single-threaded benchmark comparing a standard C loop to inline x86_64 assembly, and shows a spinner animation.
 
 Because GCC is exceptionally good at optimizing C code, the flags you use to compile this will heavily impact the results.
