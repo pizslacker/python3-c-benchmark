@@ -128,7 +128,7 @@ int main() {
     printf("[C Version]      Result: %lld | Time: %.6f seconds\n", result_c, time_c);
     printf("[Python3 Version] Result: %lld | Time: %.6f seconds\n", result_py, time_py);
 
-    printf("\nDifference: C was %.2fx %s than Python.\n", 
+    printf("\nDifference: C was %.2fx %s than Python3.\n", 
            (time_py > time_c) ? (time_py / time_c) : (time_c / time_py),
            (time_py > time_c) ? "faster" : "slower");
 
