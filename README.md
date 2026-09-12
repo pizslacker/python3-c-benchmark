@@ -17,6 +17,6 @@ Running benchmarks... /
 [C Version]      Result: 100000000 | Time: 0.034664 seconds
 [Python3 Version] Result: 100000000 | Time: 7.252038 seconds
 
-Difference: C was 209.21x faster than Python.
+Difference: C was 209.21x faster than Python3.
 
 ```
