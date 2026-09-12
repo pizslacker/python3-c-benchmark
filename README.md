@@ -3,7 +3,7 @@
 C benchmark program showcasing (compiled binary) system implementation language performance, compared to scripted/interpreted Python3 code.
 It allocates a 1-billion element array, runs a single-threaded benchmark comparing a standard C loop to inline x86_64 assembly, and shows a spinner animation.
 
-Because GCC is exceptionally good at optimizing C code, the flags you use to compile this will heavily impact the results.
+This was also a fun learning excersize for me, using another language within C with a language header (`#include <Python.h>`).
 
 This C program uses GCC inline `Python3` with `ctypes` allowing the inline `Python3` code to read the raw C memory pointer directly. It compares a standard C implementation of an array-summation function against a handwritten Python3 version, using `POSIX` high-resolution timers (`clock_gettime`) to measure the performance of both.
 
