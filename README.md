@@ -15,7 +15,7 @@ Allocating array of 100000000 elements...
 Running benchmarks...  
 
 [C Version]      Result: 100000000 | Time: 0.034664 seconds
-[Python Version] Result: 100000000 | Time: 7.252038 seconds
+[Python3 Version] Result: 100000000 | Time: 7.252038 seconds
 
 Difference: C was 209.21x faster than Python.
 
