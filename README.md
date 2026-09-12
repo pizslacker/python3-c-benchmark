@@ -11,11 +11,11 @@ This C program uses GCC inline `Python3` with `ctypes` allowing the inline `Pyth
 
 #### Example output:
 ```bash
-llocating array of 100000000 elements...
+Allocating array of 100000000 elements...
 Running benchmarks...  
 
-[C Version]      Result: 100000000 | Time: 0.034766 seconds
-[Python3 Version] Result: 100000000 | Time: 3.282802 seconds
+[C Version]      Result: 100000000 | Time: 0.034822 seconds
+[Python3 Version] Result: 100000000 | Time: 3.700200 seconds
 
-Difference: C was 94.43x faster than Python3.
+Difference: C was 106.26x faster than Python3.
 ```
