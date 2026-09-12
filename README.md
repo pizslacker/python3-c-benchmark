@@ -5,7 +5,7 @@ It allocates a 1-billion element array, runs a single-threaded benchmark compari
 
 Because GCC is exceptionally good at optimizing C code, the flags you use to compile this will heavily impact the results.
 
-This C program uses GCC inline Python3 with `ctypes` allows the inline Python code to read the raw C memory pointer directly. It compares a standard C implementation of an array-summation function against a handwritten Python3 version, using `POSIX` high-resolution timers (`clock_gettime`) to measure the performance of both.
+This C program uses GCC inline `Python3` with `ctypes` allowing the inline `Python3` code to read the raw C memory pointer directly. It compares a standard C implementation of an array-summation function against a handwritten Python3 version, using `POSIX` high-resolution timers (`clock_gettime`) to measure the performance of both.
 
 `Pthread` is utilized to animate a spinning pipe indicator in one thread while running the benchmark functions in the main thread.
 
