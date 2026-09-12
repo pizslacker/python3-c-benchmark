@@ -46,9 +46,11 @@ long long sum_c(const long long *arr, size_t size) {
 // into a Python array object without duplicating the memory.
 const char* py_code = 
     "import ctypes\n"
+    "import numpy as np\n"
     "def sum_py(ptr, size):\n"
-    "    # Cast raw memory address to a ctypes array of c_longlong\n"
-    "    arr = (ctypes.c_longlong * size).from_address(ptr)\n"
+    "    # Cast the pointer to a NumPy array (still zero-copy)\n"
+    "    arr = np.ctypeslib.as_array(ctypes.cast(ptr, ctypes.POINTER(ctypes.c_longlong)), shape=(size,))\n"
+    "    # Let NumPy's underlying C code handle the sum\n"
     "    return sum(arr)\n";
 
 // ---------------------------------------------------------
