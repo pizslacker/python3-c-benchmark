@@ -9,7 +9,7 @@ This C program uses GCC inline Python3 with `ctypes` allows the inline Python co
 
 `Pthread` is utilized to animate a spinning pipe indicator in one thread while running the benchmark functions in the main thread.
 
-### Without C optimization (`-O0`)
+#### Example output:
 ```bash
 Allocating array of 100000000 elements...
 Running benchmarks...  
