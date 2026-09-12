@@ -1,7 +1,7 @@
 # python3-c-benchmark
 
 C benchmark program showcasing (compiled binary) system implementation language performance, compared to scripted/interpreted Python3 code.
-It allocates a 100-million element array, runs a single-threaded benchmark comparing a standard C loop to inline x86_64 assembly, and shows a spinner animation.
+It allocates a 100-million element array, runs a single-threaded benchmark comparing a standard C loop to inline `Python3` code, and shows a spinner animation.
 
 This was also a fun learning excersize for me, using another language within C with a language header (`#include <Python.h>`).
 
