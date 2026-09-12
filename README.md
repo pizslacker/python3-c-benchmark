@@ -5,7 +5,7 @@ It allocates a 100-million element array, runs a single-threaded benchmark compa
 
 This was also a fun learning excersize for me, using another language within C with a language header (`#include <Python.h>`).
 
-This C program uses GCC inline `Python3` with `ctypes` allowing the inline `Python3` code to read the raw C memory pointer directly. It compares a standard C implementation of an array-summation function against a handwritten Python3 version, using `POSIX` high-resolution timers (`clock_gettime`) to measure the performance of both.
+This C program uses GCC inline `Python3` with `ctypes` allowing the inline `Python3` code to read the raw C memory pointer directly. It compares a standard C implementation of an array-summation function against a handwritten idiomatic `Python3` version, using `POSIX` high-resolution timers (`clock_gettime`) to measure the performance of both.
 
 `Pthread` is utilized to animate a spinning pipe indicator in one thread while running the benchmark functions in the main thread.
 
