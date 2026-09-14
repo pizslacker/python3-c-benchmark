@@ -127,7 +127,7 @@ int main() {
     Py_Finalize();
 
     // --- Output Results ---
-    printf("[C Version]      Result: %lld | Time: %.6f seconds\n", result_c, time_c);
+    printf("[C Version]       Result: %lld | Time: %.6f seconds\n", result_c, time_c);
     printf("[Python3 Version] Result: %lld | Time: %.6f seconds\n", result_py, time_py);
 
     printf("\nDifference: C was %.2fx %s than Python3.\n", 
