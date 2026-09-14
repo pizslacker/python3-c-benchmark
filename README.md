@@ -14,7 +14,7 @@ This C program uses GCC inline `Python3` with `ctypes` allowing the inline `Pyth
 Allocating array of 100000000 elements...
 Running benchmarks...  
 
-[C Version]      Result: 100000000 | Time: 0.034822 seconds
+[C Version]       Result: 100000000 | Time: 0.034822 seconds
 [Python3 Version] Result: 100000000 | Time: 3.700200 seconds
 
 Difference: C was 106.26x faster than Python3.
